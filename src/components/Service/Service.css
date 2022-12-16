@@ -1,0 +1,40 @@
+.service{
+    width: 100%;
+    margin-top: 140px;
+}
+
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content-item{
+    max-width: 370px;
+    width: 100%;
+    padding: 20px 70px;
+    height: 320px;
+    background: #fff;
+    box-sizing: border-box;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-icon{
+    margin-bottom: 30px;
+}
+
+.item-title{
+    margin-bottom: 15px;
+    color: #2B2B2B;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item-subtitle{
+    color: #767676;
+    font-size: 14px;
+}

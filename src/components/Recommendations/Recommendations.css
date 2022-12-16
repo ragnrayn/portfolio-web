@@ -1,0 +1,11 @@
+.recommendations{
+    margin-top: 140px;
+    width: 100%;
+}
+
+.recommendations-slider{
+    overflow: hidden;
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}

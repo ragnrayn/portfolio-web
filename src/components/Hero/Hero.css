@@ -1,0 +1,62 @@
+.hero{
+    width: 100%;
+    height: 460px;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-image: url("../../assets//hero-background.png");
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+.hero-name{
+    font-size: 48px;
+    color: #2B2B2B;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-position{
+    font-size: 48px;
+    color: #FFB400;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.hero-info{
+    color: #767676;
+    margin-bottom: 25px;
+}
+
+.hero-hire{margin-top: 10px;}
+.hero-hire a{
+    text-decoration: none;
+    padding: 16px 25px;
+    background: #FFB400;
+    color: #2B2B2B;
+    text-transform: uppercase;
+}
+
+.hero-hire a span{
+    margin-left: 20px;
+}
+
+.hero-hire a:hover{
+    background: #c88d01;
+}
+
+.hero-image{
+    position: absolute;
+    right: 70px;
+    bottom: 0;
+}
